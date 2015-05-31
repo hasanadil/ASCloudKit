@@ -14,6 +14,7 @@
 		9F38D58B1B1B5E3700991643 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F38D58A1B1B5E3700991643 /* Images.xcassets */; };
 		9F38D58E1B1B5E3700991643 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F38D58C1B1B5E3700991643 /* LaunchScreen.xib */; };
 		9F38D59A1B1B5E3700991643 /* ASCloudKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F38D5991B1B5E3700991643 /* ASCloudKitTests.m */; };
+		9F38D5A51B1B5E5D00991643 /* ASCloudKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F38D5A41B1B5E5D00991643 /* ASCloudKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		9F38D5931B1B5E3700991643 /* ASCloudKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASCloudKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F38D5981B1B5E3700991643 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F38D5991B1B5E3700991643 /* ASCloudKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASCloudKitTests.m; sourceTree = "<group>"; };
+		9F38D5A31B1B5E5D00991643 /* ASCloudKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASCloudKit.h; sourceTree = "<group>"; };
+		9F38D5A41B1B5E5D00991643 /* ASCloudKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASCloudKit.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				9F38D58A1B1B5E3700991643 /* Images.xcassets */,
 				9F38D58C1B1B5E3700991643 /* LaunchScreen.xib */,
 				9F38D57D1B1B5E3700991643 /* Supporting Files */,
+				9F38D5A31B1B5E5D00991643 /* ASCloudKit.h */,
+				9F38D5A41B1B5E5D00991643 /* ASCloudKit.m */,
 			);
 			path = ASCloudKit;
 			sourceTree = "<group>";
@@ -221,6 +226,7 @@
 			files = (
 				9F38D5861B1B5E3700991643 /* ViewController.m in Sources */,
 				9F38D5831B1B5E3700991643 /* AppDelegate.m in Sources */,
+				9F38D5A51B1B5E5D00991643 /* ASCloudKit.m in Sources */,
 				9F38D5801B1B5E3700991643 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
